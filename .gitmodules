@@ -1,3 +1,6 @@
 [submodule "ACBuildConfig"]
 	path = ACBuildConfig
 	url = https://github.com/AppCron/ACBuildConfig.git
+[submodule "ACInteractor"]
+	path = ACInteractor
+	url = https://github.com/AppCron/ACInteractor.git
