@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		463CF96B1DAEC1F70065832B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9671DAEC1F70065832B /* .gitignore */; };
+		463CF96C1DAEC1F70065832B /* ACBuildConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9681DAEC1F70065832B /* ACBuildConfig.xcconfig */; };
+		463CF96D1DAEC1F70065832B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9691DAEC1F70065832B /* LICENSE.txt */; };
+		463CF96E1DAEC1F70065832B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 463CF96A1DAEC1F70065832B /* README.md */; };
+		463CF9721DAEC49A0065832B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9701DAEC49A0065832B /* Localizable.strings */; };
 		46F006421DAD6DF800732042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F006411DAD6DF800732042 /* AppDelegate.swift */; };
 		46F006441DAD6DF800732042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F006431DAD6DF800732042 /* ViewController.swift */; };
-		46F006471DAD6DF800732042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F006451DAD6DF800732042 /* Main.storyboard */; };
 		46F006491DAD6DF800732042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F006481DAD6DF800732042 /* Assets.xcassets */; };
 		46F0064C1DAD6DF800732042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F0064A1DAD6DF800732042 /* LaunchScreen.storyboard */; };
 		46F006571DAD6DF800732042 /* LarsiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F006561DAD6DF800732042 /* LarsiAppTests.swift */; };
@@ -34,12 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		463CF9671DAEC1F70065832B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		463CF9681DAEC1F70065832B /* ACBuildConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ACBuildConfig.xcconfig; sourceTree = "<group>"; };
+		463CF9691DAEC1F70065832B /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		463CF96A1DAEC1F70065832B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		463CF96F1DAEC42F0065832B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		463CF9711DAEC49A0065832B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LarsiApp/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		46F0063E1DAD6DF800732042 /* LarsiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LarsiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F006411DAD6DF800732042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F006431DAD6DF800732042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46F006461DAD6DF800732042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46F006481DAD6DF800732042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		46F0064B1DAD6DF800732042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46F0064D1DAD6DF800732042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46F006521DAD6DF800732042 /* LarsiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LarsiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F006561DAD6DF800732042 /* LarsiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LarsiAppTests.swift; sourceTree = "<group>"; };
@@ -74,13 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		463CF9661DAEC1F70065832B /* ACBuildConfig */ = {
+			isa = PBXGroup;
+			children = (
+				463CF9671DAEC1F70065832B /* .gitignore */,
+				463CF9681DAEC1F70065832B /* ACBuildConfig.xcconfig */,
+				463CF9691DAEC1F70065832B /* LICENSE.txt */,
+				463CF96A1DAEC1F70065832B /* README.md */,
+			);
+			path = ACBuildConfig;
+			sourceTree = "<group>";
+		};
 		46F006351DAD6DF800732042 = {
 			isa = PBXGroup;
 			children = (
+				463CF9701DAEC49A0065832B /* Localizable.strings */,
 				46F006401DAD6DF800732042 /* LarsiApp */,
 				46F006551DAD6DF800732042 /* LarsiAppTests */,
 				46F006601DAD6DF800732042 /* LarsiAppUITests */,
 				46F0063F1DAD6DF800732042 /* Products */,
+				463CF9661DAEC1F70065832B /* ACBuildConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +120,6 @@
 			children = (
 				46F006411DAD6DF800732042 /* AppDelegate.swift */,
 				46F006431DAD6DF800732042 /* ViewController.swift */,
-				46F006451DAD6DF800732042 /* Main.storyboard */,
 				46F006481DAD6DF800732042 /* Assets.xcassets */,
 				46F0064A1DAD6DF800732042 /* LaunchScreen.storyboard */,
 				46F0064D1DAD6DF800732042 /* Info.plist */,
@@ -213,7 +233,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 46F006351DAD6DF800732042;
 			productRefGroup = 46F0063F1DAD6DF800732042 /* Products */;
@@ -232,9 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463CF96D1DAEC1F70065832B /* LICENSE.txt in Resources */,
+				463CF9721DAEC49A0065832B /* Localizable.strings in Resources */,
+				463CF96B1DAEC1F70065832B /* .gitignore in Resources */,
+				463CF96C1DAEC1F70065832B /* ACBuildConfig.xcconfig in Resources */,
 				46F0064C1DAD6DF800732042 /* LaunchScreen.storyboard in Resources */,
 				46F006491DAD6DF800732042 /* Assets.xcassets in Resources */,
-				46F006471DAD6DF800732042 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463CF96E1DAEC1F70065832B /* README.md in Sources */,
 				46F006441DAD6DF800732042 /* ViewController.swift in Sources */,
 				46F006421DAD6DF800732042 /* AppDelegate.swift in Sources */,
 			);
@@ -296,18 +319,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46F006451DAD6DF800732042 /* Main.storyboard */ = {
+		463CF9701DAEC49A0065832B /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46F006461DAD6DF800732042 /* Base */,
+				463CF9711DAEC49A0065832B /* en */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		46F0064A1DAD6DF800732042 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46F0064B1DAD6DF800732042 /* Base */,
+				463CF96F1DAEC42F0065832B /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -317,6 +340,7 @@
 /* Begin XCBuildConfiguration section */
 		46F006641DAD6DF800732042 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463CF9681DAEC1F70065832B /* ACBuildConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -366,6 +390,7 @@
 		};
 		46F006651DAD6DF800732042 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463CF9681DAEC1F70065832B /* ACBuildConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -415,6 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ee.larseckart.LarsiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -427,6 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ee.larseckart.LarsiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -503,6 +530,7 @@
 				46F006681DAD6DF800732042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F006691DAD6DF800732042 /* Build configuration list for PBXNativeTarget "LarsiAppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +539,7 @@
 				46F0066B1DAD6DF800732042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F0066C1DAD6DF800732042 /* Build configuration list for PBXNativeTarget "LarsiAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +548,7 @@
 				46F0066E1DAD6DF800732042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

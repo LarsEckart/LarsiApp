@@ -1,0 +1,3 @@
+[submodule "ACBuildConfig"]
+	path = ACBuildConfig
+	url = https://github.com/AppCron/ACBuildConfig.git
