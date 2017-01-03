@@ -7,25 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462B6B571DB00FF900DF2269 /* example.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 462B6B561DB00FF900DF2269 /* example.tiff */; };
 		463CF96B1DAEC1F70065832B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9671DAEC1F70065832B /* .gitignore */; };
 		463CF96C1DAEC1F70065832B /* ACBuildConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9681DAEC1F70065832B /* ACBuildConfig.xcconfig */; };
 		463CF96D1DAEC1F70065832B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9691DAEC1F70065832B /* LICENSE.txt */; };
 		463CF96E1DAEC1F70065832B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 463CF96A1DAEC1F70065832B /* README.md */; };
 		463CF9721DAEC49A0065832B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9701DAEC49A0065832B /* Localizable.strings */; };
-		463CF9B31DAED8690065832B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 463CF99E1DAED8690065832B /* .gitignore */; };
-		463CF9B41DAED8690065832B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 463CF99F1DAED8690065832B /* LICENSE */; };
-		463CF9B51DAED8690065832B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9A01DAED8690065832B /* README.md */; };
-		463CF9B61DAED8690065832B /* ErrorHandlerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9A21DAED8690065832B /* ErrorHandlerExtension.swift */; };
-		463CF9B71DAED8690065832B /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9A31DAED8690065832B /* Interactor.swift */; };
-		463CF9B81DAED8690065832B /* InteractorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9A41DAED8690065832B /* InteractorError.swift */; };
-		463CF9B91DAED8690065832B /* InteractorExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9A51DAED8690065832B /* InteractorExecuter.swift */; };
-		463CF9BA1DAED8690065832B /* InteractorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9A61DAED8690065832B /* InteractorRequest.swift */; };
-		463CF9BB1DAED8690065832B /* LazyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9A71DAED8690065832B /* LazyInteractor.swift */; };
-		463CF9BC1DAED8690065832B /* ErrorHandlerExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9A91DAED8690065832B /* ErrorHandlerExtensionTests.swift */; };
-		463CF9BD1DAED8690065832B /* InteractorErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9AA1DAED8690065832B /* InteractorErrorTests.swift */; };
-		463CF9BE1DAED8690065832B /* InteractorExecuterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9AB1DAED8690065832B /* InteractorExecuterTests.swift */; };
-		463CF9BF1DAED8690065832B /* LazyInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CF9AC1DAED8690065832B /* LazyInteractorTests.swift */; };
-		463CF9C01DAED8690065832B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 463CF9B21DAED8690065832B /* Info.plist */; };
+		46B117391DB0018A005D3DD8 /* ErrorHandlerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B117331DB0018A005D3DD8 /* ErrorHandlerExtension.swift */; };
+		46B1173A1DB0018A005D3DD8 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B117341DB0018A005D3DD8 /* Interactor.swift */; };
+		46B1173B1DB0018A005D3DD8 /* InteractorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B117351DB0018A005D3DD8 /* InteractorError.swift */; };
+		46B1173C1DB0018A005D3DD8 /* InteractorExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B117361DB0018A005D3DD8 /* InteractorExecuter.swift */; };
+		46B1173D1DB0018A005D3DD8 /* InteractorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B117371DB0018A005D3DD8 /* InteractorRequest.swift */; };
+		46B1173E1DB0018A005D3DD8 /* LazyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B117381DB0018A005D3DD8 /* LazyInteractor.swift */; };
 		46F006421DAD6DF800732042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F006411DAD6DF800732042 /* AppDelegate.swift */; };
 		46F006441DAD6DF800732042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F006431DAD6DF800732042 /* ViewController.swift */; };
 		46F006491DAD6DF800732042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F006481DAD6DF800732042 /* Assets.xcassets */; };
@@ -35,20 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		463CF9C31DAED8690065832B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 463CF9AF1DAED8690065832B /* ACInteractor.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 173A771C1D3842A200FF88BA;
-			remoteInfo = ACInteractor;
-		};
-		463CF9C51DAED8690065832B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 463CF9AF1DAED8690065832B /* ACInteractor.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 173A77261D3842A200FF88BA;
-			remoteInfo = ACInteractorTests;
-		};
 		46F006531DAD6DF800732042 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46F006361DAD6DF800732042 /* Project object */;
@@ -66,28 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		462B6B561DB00FF900DF2269 /* example.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = example.tiff; sourceTree = "<group>"; };
 		463CF9671DAEC1F70065832B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		463CF9681DAEC1F70065832B /* ACBuildConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ACBuildConfig.xcconfig; sourceTree = "<group>"; };
 		463CF9691DAEC1F70065832B /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		463CF96A1DAEC1F70065832B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		463CF96F1DAEC42F0065832B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		463CF9711DAEC49A0065832B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LarsiApp/en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		463CF99E1DAED8690065832B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		463CF99F1DAED8690065832B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		463CF9A01DAED8690065832B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		463CF9A21DAED8690065832B /* ErrorHandlerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerExtension.swift; sourceTree = "<group>"; };
-		463CF9A31DAED8690065832B /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		463CF9A41DAED8690065832B /* InteractorError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorError.swift; sourceTree = "<group>"; };
-		463CF9A51DAED8690065832B /* InteractorExecuter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorExecuter.swift; sourceTree = "<group>"; };
-		463CF9A61DAED8690065832B /* InteractorRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorRequest.swift; sourceTree = "<group>"; };
-		463CF9A71DAED8690065832B /* LazyInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyInteractor.swift; sourceTree = "<group>"; };
-		463CF9A91DAED8690065832B /* ErrorHandlerExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerExtensionTests.swift; sourceTree = "<group>"; };
-		463CF9AA1DAED8690065832B /* InteractorErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorErrorTests.swift; sourceTree = "<group>"; };
-		463CF9AB1DAED8690065832B /* InteractorExecuterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorExecuterTests.swift; sourceTree = "<group>"; };
-		463CF9AC1DAED8690065832B /* LazyInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyInteractorTests.swift; sourceTree = "<group>"; };
-		463CF9AE1DAED8690065832B /* ACInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACInteractor.h; sourceTree = "<group>"; };
-		463CF9AF1DAED8690065832B /* ACInteractor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ACInteractor.xcodeproj; sourceTree = "<group>"; };
-		463CF9B21DAED8690065832B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B117331DB0018A005D3DD8 /* ErrorHandlerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerExtension.swift; sourceTree = "<group>"; };
+		46B117341DB0018A005D3DD8 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		46B117351DB0018A005D3DD8 /* InteractorError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorError.swift; sourceTree = "<group>"; };
+		46B117361DB0018A005D3DD8 /* InteractorExecuter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorExecuter.swift; sourceTree = "<group>"; };
+		46B117371DB0018A005D3DD8 /* InteractorRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorRequest.swift; sourceTree = "<group>"; };
+		46B117381DB0018A005D3DD8 /* LazyInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyInteractor.swift; sourceTree = "<group>"; };
 		46F0063E1DAD6DF800732042 /* LarsiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LarsiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F006411DAD6DF800732042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F006431DAD6DF800732042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,66 +107,25 @@
 			path = ACBuildConfig;
 			sourceTree = "<group>";
 		};
-		463CF99D1DAED8690065832B /* ACInteractor */ = {
+		46B117321DB0018A005D3DD8 /* ACInteractor */ = {
 			isa = PBXGroup;
 			children = (
-				463CF99E1DAED8690065832B /* .gitignore */,
-				463CF99F1DAED8690065832B /* LICENSE */,
-				463CF9A01DAED8690065832B /* README.md */,
-				463CF9A11DAED8690065832B /* Sources */,
-				463CF9A81DAED8690065832B /* Tests */,
-				463CF9AD1DAED8690065832B /* Xcode */,
+				46B117331DB0018A005D3DD8 /* ErrorHandlerExtension.swift */,
+				46B117341DB0018A005D3DD8 /* Interactor.swift */,
+				46B117351DB0018A005D3DD8 /* InteractorError.swift */,
+				46B117361DB0018A005D3DD8 /* InteractorExecuter.swift */,
+				46B117371DB0018A005D3DD8 /* InteractorRequest.swift */,
+				46B117381DB0018A005D3DD8 /* LazyInteractor.swift */,
 			);
-			path = ACInteractor;
-			sourceTree = "<group>";
-		};
-		463CF9A11DAED8690065832B /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				463CF9A21DAED8690065832B /* ErrorHandlerExtension.swift */,
-				463CF9A31DAED8690065832B /* Interactor.swift */,
-				463CF9A41DAED8690065832B /* InteractorError.swift */,
-				463CF9A51DAED8690065832B /* InteractorExecuter.swift */,
-				463CF9A61DAED8690065832B /* InteractorRequest.swift */,
-				463CF9A71DAED8690065832B /* LazyInteractor.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		463CF9A81DAED8690065832B /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				463CF9A91DAED8690065832B /* ErrorHandlerExtensionTests.swift */,
-				463CF9AA1DAED8690065832B /* InteractorErrorTests.swift */,
-				463CF9AB1DAED8690065832B /* InteractorExecuterTests.swift */,
-				463CF9AC1DAED8690065832B /* LazyInteractorTests.swift */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		463CF9AD1DAED8690065832B /* Xcode */ = {
-			isa = PBXGroup;
-			children = (
-				463CF9AE1DAED8690065832B /* ACInteractor.h */,
-				463CF9AF1DAED8690065832B /* ACInteractor.xcodeproj */,
-				463CF9B21DAED8690065832B /* Info.plist */,
-			);
-			path = Xcode;
-			sourceTree = "<group>";
-		};
-		463CF9B01DAED8690065832B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				463CF9C41DAED8690065832B /* ACInteractor.framework */,
-				463CF9C61DAED8690065832B /* ACInteractorTests.xctest */,
-			);
-			name = Products;
+			name = ACInteractor;
+			path = ACInteractor/Sources;
 			sourceTree = "<group>";
 		};
 		46F006351DAD6DF800732042 = {
 			isa = PBXGroup;
 			children = (
-				463CF99D1DAED8690065832B /* ACInteractor */,
+				462B6B561DB00FF900DF2269 /* example.tiff */,
+				46B117321DB0018A005D3DD8 /* ACInteractor */,
 				463CF9701DAEC49A0065832B /* Localizable.strings */,
 				46F006401DAD6DF800732042 /* LarsiApp */,
 				46F006551DAD6DF800732042 /* LarsiAppTests */,
@@ -338,12 +267,6 @@
 			mainGroup = 46F006351DAD6DF800732042;
 			productRefGroup = 46F0063F1DAD6DF800732042 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 463CF9B01DAED8690065832B /* Products */;
-					ProjectRef = 463CF9AF1DAED8690065832B /* ACInteractor.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				46F0063D1DAD6DF800732042 /* LarsiApp */,
@@ -353,32 +276,13 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		463CF9C41DAED8690065832B /* ACInteractor.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ACInteractor.framework;
-			remoteRef = 463CF9C31DAED8690065832B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		463CF9C61DAED8690065832B /* ACInteractorTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ACInteractorTests.xctest;
-			remoteRef = 463CF9C51DAED8690065832B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		46F0063C1DAD6DF800732042 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462B6B571DB00FF900DF2269 /* example.tiff in Resources */,
 				463CF96D1DAEC1F70065832B /* LICENSE.txt in Resources */,
-				463CF9B31DAED8690065832B /* .gitignore in Resources */,
-				463CF9C01DAED8690065832B /* Info.plist in Resources */,
-				463CF9B41DAED8690065832B /* LICENSE in Resources */,
 				463CF9721DAEC49A0065832B /* Localizable.strings in Resources */,
 				463CF96B1DAEC1F70065832B /* .gitignore in Resources */,
 				463CF96C1DAEC1F70065832B /* ACBuildConfig.xcconfig in Resources */,
@@ -408,20 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				463CF9B71DAED8690065832B /* Interactor.swift in Sources */,
-				463CF9BD1DAED8690065832B /* InteractorErrorTests.swift in Sources */,
 				463CF96E1DAEC1F70065832B /* README.md in Sources */,
-				463CF9BC1DAED8690065832B /* ErrorHandlerExtensionTests.swift in Sources */,
+				46B1173E1DB0018A005D3DD8 /* LazyInteractor.swift in Sources */,
 				46F006441DAD6DF800732042 /* ViewController.swift in Sources */,
-				463CF9B91DAED8690065832B /* InteractorExecuter.swift in Sources */,
-				463CF9BB1DAED8690065832B /* LazyInteractor.swift in Sources */,
-				463CF9B51DAED8690065832B /* README.md in Sources */,
-				463CF9BF1DAED8690065832B /* LazyInteractorTests.swift in Sources */,
-				463CF9BA1DAED8690065832B /* InteractorRequest.swift in Sources */,
-				463CF9B61DAED8690065832B /* ErrorHandlerExtension.swift in Sources */,
-				463CF9BE1DAED8690065832B /* InteractorExecuterTests.swift in Sources */,
+				46B1173A1DB0018A005D3DD8 /* Interactor.swift in Sources */,
+				46B1173B1DB0018A005D3DD8 /* InteractorError.swift in Sources */,
 				46F006421DAD6DF800732042 /* AppDelegate.swift in Sources */,
-				463CF9B81DAED8690065832B /* InteractorError.swift in Sources */,
+				46B1173C1DB0018A005D3DD8 /* InteractorExecuter.swift in Sources */,
+				46B1173D1DB0018A005D3DD8 /* InteractorRequest.swift in Sources */,
+				46B117391DB0018A005D3DD8 /* ErrorHandlerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
